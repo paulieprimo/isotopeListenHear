@@ -74,7 +74,7 @@ var Data = [
 
   {
     name: "Miles Davis",
-    genre: "Blues / Jazz",
+    genre: "Jazz",
     sort: "blueJazz",
     venue: "100 Main St.",
     city: "Durham",
