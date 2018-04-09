@@ -2,7 +2,8 @@
 var Data = [
   {
     name: "Beatles",
-    genre: "rock",
+    genre: "Rock",
+    sort: "rock",
     venue: "303 Country Venue Ln.",
     city: "Raleigh",
     distance: 7
@@ -10,7 +11,8 @@ var Data = [
   },
   {
     name: "Hank Williams",
-    genre: "country",
+    genre: "Country",
+    sort: "country",
     venue: "303 Country Venue Ln.",
     city: "Durham",
     distance: 10
@@ -18,28 +20,32 @@ var Data = [
   },
   {
     name: "Parliament",
-    genre: "rb",
+    genre: "R & B",
+    sort: "rb",
     venue: "14 Warehouse Rd.",
     city: "Chapel Hill",
     distance: 20
   },
   {
     name: "Snoop Dogg",
-    genre: "rap",
+    genre: "Rap",
+    sort: "rap",
     venue: "100 Main St.",
     city:  "Raleigh",
     distance: 7
   },
   {
     name: "Rolling Stones",
-    genre: "rock",
+    genre: "Rock",
+    sort: "rock",
     venue: "14 Warehouse Rd.",
     city: "Durham",
     distance: 17
   },
   {
     name: "Beck",
-    genre: "alternative",
+    genre: "Alternative",
+    sort: "alternative",
     venue: "100 Main St.",
     city: "Durham",
     distance: 12
@@ -48,7 +54,8 @@ var Data = [
 
   {
     name: "Tom Petty",
-    genre: "rock",
+    genre: "Rock",
+    sort: "rock",
     venue: "104 Main St.",
     city: "Durham",
     distance: 19
@@ -57,7 +64,8 @@ var Data = [
 
   {
     name: "Foo Fighters",
-    genre: "alternative",
+    genre: "Alternative",
+    sort: "alternative",
     venue: "100 Main St.",
     city: "Chapel Hill",
     distance: 25
@@ -66,7 +74,8 @@ var Data = [
 
   {
     name: "Miles Davis",
-    genre: "blueJazz",
+    genre: "Blues / Jazz",
+    sort: "blueJazz",
     venue: "100 Main St.",
     city: "Durham",
     distance: 9
@@ -75,7 +84,8 @@ var Data = [
 
   {
     name: "Merle Haggard",
-    genre: "country",
+    genre: "Country",
+    sort: "country",
     venue: "100 Main St.",
     city: "Raleigh",
     distance: 2
@@ -83,7 +93,8 @@ var Data = [
   },
   {
     name: "Shakira",
-    genre: "latin",
+    genre: "Latin",
+    sort: "latin",
     venue: "100 Main St.",
     city: "Raleigh",
     distance: 6
@@ -91,7 +102,8 @@ var Data = [
   },
   {
     name: "Jay Z",
-    genre: "rap",
+    genre: "Rap",
+    sort: "rap",
     venue: "100 Main St.",
     city: "Durham",
     distance: 10
@@ -99,7 +111,8 @@ var Data = [
   },
   {
     name: "Crystal Method",
-    genre: "electronic",
+    genre: "Electronic",
+    sort: "electronic",
     venue: "100 Main St.",
     city: "Durham",
     distance: 16
@@ -107,7 +120,8 @@ var Data = [
   },
   {
     name: "Mark Anthony",
-    genre: "latin",
+    genre: "Latin",
+    sort: "latin",
     venue: "100 Main St.",
     city: "Raleigh",
     distance: 4
@@ -115,12 +129,25 @@ var Data = [
   },
   {
     name: "The Who",
-    genre: "rock",
+    genre: "Rock",
+    sort: "rock",
     venue: "100 Main St.",
     city: "Raleigh",
     distance: 7
 
+  },
+
+  {
+    name: "The Prodigy",
+    genre: "Electronic",
+    sort: "electronic",
+    venue: "100 Main St.",
+    city: "Chapel Hill",
+    distance: 30
+
   }
+
+
 
 
 ];
@@ -137,8 +164,9 @@ function loadData() {
     let index = Data.indexOf(datum);
     var html =
       `
-    <div class="grid-item ${datum.genre} ${datum.city}" data-category="${datum.genre}">
+    <div class="grid-item ${datum.sort} ${datum.city}" data-category="${datum.sort}">
     <div class="datum-name">${datum.name}</div>
+    <div class="datum-genre">${datum.genre}</div>
     <div class="datum-venue">${datum.venue}</div>
     <div class="datum-city">${datum.city}</div>
     <div class="datum-distance">${datum.distance}m</div>

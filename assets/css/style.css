@@ -45,7 +45,15 @@ body {
   padding: 0;
 }
 
-.grid-item .datum-city{
+.grid-item .datum-genre {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  font-size: 8px;
+}
+
+
+.grid-item .datum-city {
   position: absolute;
 
   left: 1px;
@@ -76,8 +84,10 @@ body {
   position: absolute;
   left: 1px;
   top: 81px;
-  font-size: 6px;
+  font-size: 8px;
 }
+
+
 
 .grid-item.rock          { background: #F00; background: hsl(   0, 100%, 50%); }
 .grid-item.alternative  { background: #F80; background: hsl(  36, 100%, 50%); }
