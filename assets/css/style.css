@@ -96,12 +96,14 @@ body {
 
 .rock         { color: #F00; color: hsl(   0, 100%, 50%); }
 .alternative  { color: #F80; color: hsl(  36, 100%, 50%); }
-.country     { color: #00F; color: hsl( 252, 100%, 50%); }
+.country     { color: #F08; color: hsl( 324, 100%, 50%); }
 .rap        { color: #0F0; color: hsl( 108, 100%, 50%); }
 .rb         {color: #FF0; color: hsl(  72, 100%, 50%); }
 .electronic { color: #0FF; color: hsl( 180, 100%, 50%); }
 .blueJazz      { color: #08F; color: hsl( 216, 100%, 50%); }
 .latin        { color: #F0F; color: hsl( 288, 100%, 50%); }
+
+
 
 
 
