@@ -167,8 +167,7 @@ function loadData() {
     <div class="grid-item ${datum.sort} ${datum.city}" data-category="${datum.sort}">
     <div class="datum-name">${datum.name}</div>
     <div class="datum-genre">${datum.genre}</div>
-    <div class="datum-city">${datum.city}</div>
-    <div class="datum-venue">${datum.venue}</div>
+    <div class="datum-city">${datum.city} <span class="datum-venue">${datum.venue}</span> </div>
     <div class="datum-distance">${datum.distance}m</div>
 
     </div>
