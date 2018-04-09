@@ -6,7 +6,8 @@ body {
 
 
 .sort,
-.filter {
+.filter,
+.filterCity {
 
   float: left;
   margin-right: 5px;

@@ -137,7 +137,7 @@ function loadData() {
     let index = Data.indexOf(datum);
     var html =
       `
-    <div class="grid-item ${datum.genre}" data-category="${datum.genre}">
+    <div class="grid-item ${datum.genre} ${datum.city}" data-category="${datum.genre}">
     <div class="datum-name">${datum.name}</div>
     <div class="datum-venue">${datum.venue}</div>
     <div class="datum-city">${datum.city}</div>
@@ -160,7 +160,7 @@ var $grid = $('.grid').isotope({
   itemSelector: '.grid-item',
   layoutMode: 'fitRows',
   getSortData: {
-    distance: ".datum.distance"
+    distance: ".datum-distance"
 },
 });
 
@@ -182,13 +182,34 @@ $(".filter a").on("click", function () {
     
   });
 
-  
-  
-      
+})
 
+$(".filterCity a").on("click", function () {
 
+  var cityValue = $(this).attr('data-name');
+
+  $grid.isotope ({
+
+    filter: cityValue,
+
+    
+  });
 
 })
+
+$(".sort button").on("click", function () {
+
+  console.log("test");
+
+  $grid.isotope ({
+
+    sortBy: $grid.distance,
+
+    
+  });
+
+})
+
 
 
 
