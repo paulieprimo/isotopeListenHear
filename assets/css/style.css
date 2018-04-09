@@ -56,7 +56,7 @@ body {
 .grid-item .datum-city {
   position: absolute;
 
-  left: 1px;
+  left: 175px;
   top: 65px;
   text-transform: none;
   letter-spacing: 0;
@@ -82,9 +82,9 @@ body {
 
 .grid-item .datum-venue {
   position: absolute;
-  left: 1px;
+  left: 175px;
   top: 81px;
-  font-size: 8px;
+  font-size: 6px;
 }
 
 

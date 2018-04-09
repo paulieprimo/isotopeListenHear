@@ -23,7 +23,7 @@ var Data = [
     genre: "R & B",
     sort: "rb",
     venue: "14 Warehouse Rd.",
-    city: "Chapel Hill",
+    city: "Chapel-Hill",
     distance: 20
   },
   {
@@ -67,7 +67,7 @@ var Data = [
     genre: "Alternative",
     sort: "alternative",
     venue: "100 Main St.",
-    city: "Chapel Hill",
+    city: "Chapel-Hill",
     distance: 25
 
   },
@@ -142,7 +142,7 @@ var Data = [
     genre: "Electronic",
     sort: "electronic",
     venue: "100 Main St.",
-    city: "Chapel Hill",
+    city: "Chapel-Hill",
     distance: 30
 
   }
