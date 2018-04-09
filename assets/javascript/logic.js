@@ -160,7 +160,7 @@ var $grid = $('.grid').isotope({
   itemSelector: '.grid-item',
   layoutMode: 'fitRows',
   getSortData: {
-    distance: ".datum-distance"
+    distance: ".datum-distance parseInt"
 },
 });
 
@@ -203,7 +203,7 @@ $(".sort button").on("click", function () {
 
   $grid.isotope ({
 
-    sortBy: $grid.distance,
+    sortBy: "distance"
 
     
   });
