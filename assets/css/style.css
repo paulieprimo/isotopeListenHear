@@ -2,6 +2,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: black;
 }
 
 
@@ -18,6 +19,8 @@ body {
 
 .grid {
   border: 1px solid #333;
+  background-color: black;
+
 }
 
 /* clear fix */
@@ -36,8 +39,8 @@ body {
   height: 100px;
   margin: 5px;
   padding: 10px;
-  background: #888;
-  color: #262524;
+  background-color: black;
+  border: 1px solid #888;
 }
 
 .grid-item > * {
@@ -56,12 +59,14 @@ body {
 .grid-item .datum-city {
   position: absolute;
 
-  left: 175px;
+  left: 75%;
   top: 65px;
   text-transform: none;
   letter-spacing: 0;
   font-size: 12px;
   font-weight: normal;
+  color: white;
+  
 }
 
 .grid-item .datum-name {
@@ -78,25 +83,27 @@ body {
   right: 2px;
   top: 2px;
   font-size: 10px;
+  color: #888;
 }
 
 .grid-item .datum-venue {
   position: absolute;
-  left: 175px;
+  left: 75%;
   top: 81px;
   font-size: 6px;
+  color: #888;
 }
 
 
 
-.grid-item.rock          { background: #F00; background: hsl(   0, 100%, 50%); }
-.grid-item.alternative  { background: #F80; background: hsl(  36, 100%, 50%); }
-.grid-item.country     { background: #00F; background: hsl( 252, 100%, 50%); }
-.grid-item.rap        { background: #0F0; background: hsl( 108, 100%, 50%); }
-.grid-item.rb    { background: #0F8; background: hsl( 144, 100%, 50%); }
-.grid-item.electronic { background: #0FF; background: hsl( 180, 100%, 50%); }
-.grid-item.blueJazz      { background: #08F; background: hsl( 216, 100%, 50%); }
-.grid-item.latin        { background: #F0F; background: hsl( 288, 100%, 50%); }
+.rock         { color: #F00; color: hsl(   0, 100%, 50%); }
+.alternative  { color: #F80; color: hsl(  36, 100%, 50%); }
+.country     { color: #00F; color: hsl( 252, 100%, 50%); }
+.rap        { color: #0F0; color: hsl( 108, 100%, 50%); }
+.rb    { color: #0F8; color: hsl( 144, 100%, 50%); }
+.electronic { color: #0FF; color: hsl( 180, 100%, 50%); }
+.blueJazz      { color: #08F; color: hsl( 216, 100%, 50%); }
+.latin        { color: #F0F; color: hsl( 288, 100%, 50%); }
 
 
 
