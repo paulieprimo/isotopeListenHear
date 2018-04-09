@@ -138,6 +138,46 @@ var Data = [
   },
 
   {
+    name: "Michael Jackson",
+    genre: "Pop",
+    sort: "rock",
+    venue: "100 Main St.",
+    city: "Raleigh",
+    distance: 4
+
+  },
+
+  {
+    name: "Muddy Waters",
+    genre: "Blues",
+    sort: "blueJazz",
+    venue: "100 Main St.",
+    city: "Chapel-Hill",
+    distance: 14
+
+  },
+
+  {
+    name: "The Temptations",
+    genre: "R&B",
+    sort: "rb",
+    venue: "100 Main St.",
+    city: "Raleigh",
+    distance: 5
+
+  },
+
+  {
+    name: "Beyonce",
+    genre: "R&B",
+    sort: "rb",
+    venue: "100 Main St.",
+    city: "Raleigh",
+    distance: 7
+
+  },
+
+  {
     name: "The Prodigy",
     genre: "Electronic",
     sort: "electronic",
